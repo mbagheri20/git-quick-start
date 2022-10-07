@@ -10,4 +10,4 @@ Welcome to Git quick starting guide's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   introduction.rst
+   introduction.md

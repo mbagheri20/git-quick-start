@@ -35,8 +35,8 @@ release = '0.1'
 # ones.
 extensions = ['sphinx.ext.autodoc']
 
-#source_suffix = ['.rst', '.md']
-source_suffix = '.rst'
+source_suffix = ['.rst', '.md']
+#source_suffix = '.rst'
 
 master_doc = 'index'
 
