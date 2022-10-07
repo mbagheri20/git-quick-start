@@ -3,15 +3,15 @@
  
 
 ## Outlines
-- Learn how to install git and cnfigure it.
+- Learn how to install git and configure it.
 - Learn how to configure github for remote features.
 - Learn basic commands for working with git.
-- Learn how to work reporitory, branches and forks.
+- Learn how to work repository, branches and log.
 
 
 ## What is Git and why we need that
 
-- Git is a version control that helps us to record a snapshot of developing process 
+- Git is a version control that helps us to record a snapshot of the developing process 
 - Track changes in contents of project
 - Efficient and easier collaboration in code developments
 
@@ -32,7 +32,7 @@ $ sudo apt install git-all
 ```
 
 ## Configure Git
-With the following you can have minimal configurations in git contains name email and your favorite editor that here we selected nano. You can select everything you want.
+With the following you can have minimal configurations in git contains name, email and your favorite editor that here we selected nano. You can select everything you want.
 ```console
 $ git config --global user.name "Your Name"
 $ git config --global user.email yourname@example.com
@@ -65,7 +65,7 @@ Hi username! You've successfully authenticated, but GitHub does not provide shel
 
 ## Make a git project and basic commands
 
-with following you can make a example project and make **.git** folder that contains all informations about project.
+with following you can make a example project and make **.git** folder that contains all information about project.
 
 ```console
 $ mkdir example
@@ -75,12 +75,12 @@ $ git init
 
 ## Adding files
 Git takes snapshots only if we request it. We will record changes always in two steps:
-- add and commit (with message)
+- add and commit (with a message)
 For add files to project we will use `git add` to stage the file in git then we have to commit it with a good message.Here we will make a text file and ask git to record the changes for it:
 
 ```console
 $ git add sometext.txt
-$ git commit -m "This is a example file"
+$ git commit -m "This is an example file"
 ```
 In every stage we can use `git status` to see the changes.
 Now add some texts to text file save it and use add and commit to see changes in status.
@@ -92,7 +92,7 @@ One file is called `instructions.txt` and contains:
 ```shell
 * I love Physics.
 ```
-Use `git diff` to see the changes then with follwing we can add updates:
+Use `git diff` to see the changes then with following we can add updates:
 
 ```console
 $ git add sometext.txt
@@ -102,7 +102,7 @@ Try `git status` to see status of project.
 
 ## Git history and log
 
-Git will keep a compelete history of project and we can browse the development and access each state that we have committed that will be used to compare versions and going back in time. we can see a log of project with:
+Git will keep a complete history of project and we can browse the development and access each state that we have committed that will be used to compare versions and going back in time. we can see a log of project with:
 
 ```console
 $ git log
@@ -116,8 +116,8 @@ $ git log
 
 ## Branches
 
-In priciple, branceh is a new place contain a copy of original code that you can work on a new feature, develope and test it and in the final step merge it to main branch of code.
-e.g. if you use follwing command you will have a copy of code in a folder that you can edit the codes without broke working code:
+In priciple, branch is a new place containing a copy of original code that you can work on a new feature, develop and test it and in the final step merge it to main branch of code.
+e.g. if you use following command you will have a copy of code in a folder that you can edit the codes without breaking working code:
 
 ```console
 $ git branch addfeature master    # creates branch "addfeature" from master
@@ -151,7 +151,7 @@ you can always find the project link in SSH
 ## Push and Pull
 
 when you want to upload your git commits or changes from your local system to github use `git push`.
-And always remeber before starting working on project download new changes that may made by your collaborators from github with `git pull`
+And always remember before starting working on project download new changes that may made by your collaborators from github with `git pull`
 
 ## Summary of git commands
 
