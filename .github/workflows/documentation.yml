@@ -10,6 +10,7 @@ jobs:
         run: |
           pip install sphinx sphinx_rtd_theme
           pip install myst-parser
+          pip install sphinx-copybutton
       - name: Sphinx build
         run: |
           sphinx-build doc _build
