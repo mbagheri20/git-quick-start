@@ -1,5 +1,5 @@
-Basics of Git
-*************
+## Basics of Git
+****************
  
 
 ## Outlines
